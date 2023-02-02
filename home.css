@@ -1,38 +1,42 @@
 
       body{
-        background-color: blanchedalmond;
+        background-color: rgba(191, 211, 223, 0.558);
+      }
+
+      .homePageImg{
+        background-image: linear-gradient(to bottom, #b5b8e8, rgba(198, 222, 241, 0.5)),url('/images/IMG-20230201-WA0008.jpg');
+        background-size: 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;  
+        height: 100vh;
       }
       .navbar-dark .navbar-nav .nav-link {
         color: rgb(255 255 255);
         font-size: 20px;
-    font-weight: 400;
+        font-weight: 400;
     }
     .navbar-brand{
       font-size: 30px;
     }
 
+
+    h1, h4 {
+      color: black;
+    }
+   
    .first-row{
-    display: flex;
+    /* display: flex; */
     align-items: center;
     justify-content: center;
-    margin-top: 20px;
+    /* margin-top: 20px; */
    }
      .first-row-btn{
       margin: 10px;
       width: 90px;
      }
 
-     @media only screen and (max-width:767px){
-      
-      .first-row{
-        padding: 20px;
-      }
-       .first-row-img{
-            width: 60%;
-            padding: 15px;
-            margin-top: 10px;
-       }
-     }
+     
      @media only screen and (max-width:767px){
       
      }
@@ -81,11 +85,26 @@
 
     .social-icon{
       font-size: 25px;
-      padding: 5px;
-      border-radius: 49% 51% 50% 50% / 30% 30% 70% 70% ;
+      padding: 9px;
+      /* border-radius: 49% 51% 50% 50% / 30% 30% 70% 70% ; */
+      color: white;
+      /* background: white; */
+    }
+    .footer{
+      background-image: linear-gradient(to bottom, #171a1c, rgba(71, 79, 87, 0.237)),url('/images/');
+      background-size: 100%;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-attachment: fixed;  
+      height: auto;
+    
+    }
+
+    .social-icon:hover{
+      background-color: white;
       color: black;
-      background: white;
-  
+
+      border-radius: 42%;
     }
     .footer{
       margin-top: 10px;
