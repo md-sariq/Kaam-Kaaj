@@ -1,0 +1,98 @@
+
+      body{
+        background-color: blanchedalmond;
+      }
+      .navbar-dark .navbar-nav .nav-link {
+        color: rgb(255 255 255);
+        font-size: 20px;
+    font-weight: 400;
+    }
+    .navbar-brand{
+      font-size: 30px;
+    }
+
+   .first-row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+   }
+     .first-row-btn{
+      margin: 10px;
+      width: 90px;
+     }
+
+     @media only screen and (max-width:767px){
+      
+      .first-row{
+        padding: 20px;
+      }
+       .first-row-img{
+            width: 60%;
+            padding: 15px;
+            margin-top: 10px;
+       }
+     }
+     @media only screen and (max-width:767px){
+      
+     }
+
+     
+
+     /* Services */
+
+     /* 
+
+     .service-row1{
+
+     }
+     .service-row1{
+
+     } */
+
+     .service-col{
+      margin-top: 20px;
+     }
+     
+     .service-container{
+      display: flex;
+      justify-content: space-evenly;
+      flex-wrap: wrap;
+     }
+     .services-list{
+      padding: 8px;
+      text-align: center;
+      /* width: 15%; */
+     }
+     .service-img{
+      width: 80px;
+     }
+     .services-row-btn{
+      width: 150px;
+      margin-top: 15px;
+      margin-bottom: 20px;
+     }
+
+     @media only screen and (max-width:767px){
+      
+     }
+
+    /*footer*/
+
+    .social-icon{
+      font-size: 25px;
+      padding: 5px;
+      border-radius: 49% 51% 50% 50% / 30% 30% 70% 70% ;
+      color: black;
+      background: white;
+  
+    }
+    .footer{
+      margin-top: 10px;
+    }
+
+    @media only screen and (max-width:768px){
+      .footer{
+        padding-left: 35px;
+      }
+    }
