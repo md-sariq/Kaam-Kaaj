@@ -4,7 +4,7 @@
       }
 
       .homePageImg{
-        background-image: linear-gradient(to bottom, #b5b8e8, rgba(198, 222, 241, 0.5)),url('/images/IMG-20230201-WA0008.jpg');
+        background-image: linear-gradient(to bottom, #b5b8e8, rgba(198, 222, 241, 0.5)),url('/IMG-20230201-WA0008.jpg');
         background-size: 100%;
         background-position: center;
         background-repeat: no-repeat;
@@ -91,7 +91,7 @@
       /* background: white; */
     }
     .footer{
-      background-image: linear-gradient(to bottom, #171a1c, rgba(71, 79, 87, 0.237)),url('/images/');
+      background-image: linear-gradient(to bottom, #171a1c, rgba(71, 79, 87, 0.237)),url('');
       background-size: 100%;
       background-position: center;
       background-repeat: no-repeat;
